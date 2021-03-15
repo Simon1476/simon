@@ -1,0 +1,10 @@
+.friends-screen {
+padding: 0 var(--fix-space);
+}
+
+.component-bookmark {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}

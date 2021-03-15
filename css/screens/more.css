@@ -1,0 +1,97 @@
+#email {
+    font-size: 20px;
+    color:black;
+    opacity: 0.4;
+}
+
+.make-wallet {
+    background-color: rgb(207, 194, 194);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px dotted black;
+    padding: 15px;
+    
+}
+.account-pay {
+    display: flex;
+    padding:20px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    
+}
+.account-pay__money{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-pay__money span {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-size:18px;
+}
+
+.account-pay__fn{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.devide{
+    margin:0 5px;
+    width: 1px;
+    height: 14px;
+    background-color: gray;
+}
+
+.icon-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+  }
+  
+  .icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+  }
+  
+  .icon-row__icon i {
+    font-size: 35px;
+  }
+  
+  .icon-row__icon span {
+    margin-top: 18px;
+    font-weight: 600;
+  }
+  
+  .hate-ad {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      background-color: hotpink;
+      padding: 20px;
+      border-radius: 20px;
+  }
+
+  .hate-ad__word h3,
+  .hate-ad__word h5 {
+      font-size: 20px;
+      font-weight:600;
+  }
+
+  .hate-ad__ad span{
+      padding: 3px 10px;
+      background-color: rgb(192, 175, 175);
+      border-radius: 10px;
+      font-weight: 600;
+      color: gold;
+  }
+
+  .pink{
+      background-color: rgb(120, 120, 216);
+  }

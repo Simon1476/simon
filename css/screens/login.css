@@ -1,0 +1,49 @@
+.kokoa-header {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.kokoa-header h1{
+ font-size: 28px;
+ font-weight: 600;
+ margin-bottom: 30px;
+}
+
+.kokoa-header p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    padding: 0 30px;
+}
+
+.login-form input {
+    padding:30px 5px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    border: none;
+}
+
+.login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.login-form input:nth-child(3) {
+    background-color: yellow;
+}
+
+.index-line {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.Qr-login {
+    background-color: tomato;
+}
