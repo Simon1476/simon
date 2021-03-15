@@ -36,10 +36,12 @@
     font-size: 14px;
     margin-bottom: 25px;
   }
-
-  .message-row {
+  
+  .message-row{
     display: flex;
     margin-bottom: 25px;
+    animation: movingBox 1s ease-in-out forwards;
+    
   }
   
   .message-row img {
@@ -74,8 +76,18 @@
     font-size: 14px;
   }
   
+  @keyframes movingBox2 {
+    from{
+        transform: translateX(600px);
+    }
+    to{
+        transform: none;
+    }
+}
   .message-row--own {
+    display: flex;
     justify-content: flex-end;
+    animation: movingBox2 2s ease-in-out forwards;
   }
   
   .message-row--own .message__bubble {
@@ -121,7 +133,7 @@
     width: 100%;
     border: var(--main-border);
     border-radius: 20px;
-    transition: all 0.3s ease-in-out;
+    transition: all 1s ease-in-out;
   }
   
   .reply__column:last-child > i,
@@ -171,7 +183,7 @@
   
   .reply:focus-within input {
     width: 95vw;
-    transform: translateX(-14%) translateY(-80px);
+    transform: translateX(-14%) translateY(-230px);
   }
   
   .reply:focus-within {

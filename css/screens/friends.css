@@ -8,3 +8,27 @@ padding: 0 var(--fix-space);
     align-items: center;
     margin-top: 10px;
 }
+
+@keyframes HideSplashScreen {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+#splash-screen {
+    background-color: yellow;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    animation: HideSplashScreen 0.4s ease-in-out forwards;
+    animation-delay: 1s;
+  }
